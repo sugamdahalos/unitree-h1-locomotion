@@ -1,0 +1,46 @@
+# Backup archives
+backup/
+backup/**
+backup_scripts/
+backup_scripts/**
+
+# Reinforcement Learning Checkpoints & Artifacts
+checkpoints/
+tb_logs/
+*.pt
+*.zip
+*.npz
+*.log
+MUJOCO_LOG.TXT
+_scene_locomotion.xml
+
+# Allow analysis plots and rollout video previews in README
+!network_latent_analysis.png
+!exp*_biomechanical_analysis.png
+!videos/
+
+
+# Antigravity & IDE files
+.antigravity/
+.antigravity-ide/
+.antigravity_cockpit/
+.gemini/
+.idea/
+.vscode/
+
+# Python / Environment artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+
+# System & Cache directories
+.cache/
+.config/
+# Context dumps for LLMs
+*context.txt
