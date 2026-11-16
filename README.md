@@ -35,12 +35,12 @@ Summary of reward configurations and emergent behaviors across the six ablation 
 
 | Exp | Reward Configuration | Emergent Behavior in MuJoCo | Rollout Video | Outcome |
 | :--- | :--- | :--- | :---: | :--- |
-| **Exp 1** | **Naive Velocity**<br>(Unconstrained torque) | Stands stiffly with minor jitter ($\pm 50\text{ N}\cdot\text{m}$); knee buckles onto the floor at 5s when attempting to lean forward. | [▶ Watch](videos/exp1_naive.mp4) | Drops to knees at ~5s |
-| **Exp 2** | **+ Effort & Posture**<br>(With +0.5/step survival bonus) | Stance freeze: settles 2.7 cm into a crouch and remains motionless (~0.01 m/s) to collect the survival bonus. | [▶ Watch](videos/exp2_posture.mp4) | Stands frozen for full 10s |
-| **Exp 3** | **Zero Survival Bonus**<br>(Velocity + Effort + Smoothness) | Split-stance "scooter" exploit: left leg holds a forward flexed posture while trailing right leg pushes in a 3.3 Hz cycle. | [▶ Watch](videos/exp3_effort.mp4) | Sustained 11.87 m run over 10s |
-| **Exp 4A** | **Exp 3 + Bilateral Symmetry** | Penalizing asymmetric effort breaks the split-stance tripod; torso leans back at 0s and pitches forward into a stumble at 1.7s. | [▶ Watch](videos/exp4a_symmetry.mp4) | Falls at 1.73s |
-| **Exp 4B** | **Exp 3 + Swing Clearance** | Rewarding vertical foot lift forces single-leg support without active roll/pitch balance, causing backward fall. | [▶ Watch](videos/exp4b_clearance.mp4) | Falls at 1.35s |
-| **Exp 4C** | **Exp 3 + Contact Alternation** | Forcing alternating steps causes rapid forward leg thrust and an unrecoverable trunk pitch faceplant. | [▶ Watch](videos/exp4c_alternation.mp4) | Falls at 1.36s |
+| **Exp 1** | **Naive Velocity**<br>(Unconstrained torque) | Stands stiffly with minor jitter ($\pm 50\text{ N}\cdot\text{m}$); knee buckles onto the floor at 5s when attempting to lean forward. | [▶ Watch](videos/exp1_naive.gif) | Drops to knees at ~5s |
+| **Exp 2** | **+ Effort & Posture**<br>(With +0.5/step survival bonus) | Stance freeze: settles 2.7 cm into a crouch and remains motionless (~0.01 m/s) to collect the survival bonus. | [▶ Watch](videos/exp2_posture.gif) | Stands frozen for full 10s |
+| **Exp 3** | **Zero Survival Bonus**<br>(Velocity + Effort + Smoothness) | Split-stance "scooter" exploit: left leg holds a forward flexed posture while trailing right leg pushes in a 3.3 Hz cycle. | [▶ Watch](videos/exp3_effort.gif) | Sustained 11.87 m run over 10s |
+| **Exp 4A** | **Exp 3 + Bilateral Symmetry** | Penalizing asymmetric effort breaks the split-stance tripod; torso leans back at 0s and pitches forward into a stumble at 1.7s. | [▶ Watch](videos/exp4a_symmetry.gif) | Falls at 1.73s |
+| **Exp 4B** | **Exp 3 + Swing Clearance** | Rewarding vertical foot lift forces single-leg support without active roll/pitch balance, causing backward fall. | [▶ Watch](videos/exp4b_clearance.gif) | Falls at 1.35s |
+| **Exp 4C** | **Exp 3 + Contact Alternation** | Forcing alternating steps causes rapid forward leg thrust and an unrecoverable trunk pitch faceplant. | [▶ Watch](videos/exp4c_alternation.gif) | Falls at 1.36s |
 
 ### Visual Rollout Previews
 
